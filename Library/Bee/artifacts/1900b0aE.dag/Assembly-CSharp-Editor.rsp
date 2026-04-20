@@ -474,6 +474,12 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/PolygonShaderGUI.cs"
+"Assets/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/PolygonTransparencyShaderGUI.cs"
+"Assets/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/polygonShaderTransparent_UI.cs"
+"Assets/Synty/PolygonGeneric/Shaders/InterfaceOverrides/Editor/polygonShader_UI.cs"
+"Assets/Synty/SyntyPackageHelper/Editor/SyntyPackageHelper.cs"
+"Assets/Synty/SyntyPackageHelper/Editor/SyntyPackageHelperConfig.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 /deterministic
