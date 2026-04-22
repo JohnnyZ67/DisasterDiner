@@ -1,0 +1,1236 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.13f1 (8c4f11e4fb20) revision 9195281'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32347 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli" at "2026-04-22T14:33:36.8397551Z"
+Process architecture: x64
+Date: 2026-04-22T14:33:36Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Game Development/DisasterDiner
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+63826
+-licensingIpc
+LicenseClient-zieli
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Game Development/DisasterDiner
+C:/Game Development/DisasterDiner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [31172]  Target information:
+
+Player connection [31172]  * "[IP] 192.168.86.22 [Port] 0 [Flags] 2 [Guid] 2057081473 [EditorId] 2057081473 [Version] 1048832 [Id] WindowsEditor(7,Johns_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31172] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31172] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.13f1 (8c4f11e4fb20)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game Development/DisasterDiner/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001612 seconds.
+- Loaded All Assemblies, in  0.319 seconds
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-zieli"
+[Licensing::IpcConnector] LicenseClient-zieli channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13" at "2026-04-22T14:33:37.7361669Z"
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.318 seconds
+Domain Reload Profiling: 635ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              e14e498b041740edb484e536ad1d7cbd
+  Correlation Id:          0a93e7b546b02e57733dac467a30e5da
+  External correlation Id: 1879479527857946790
+  Machine Id:              a0OP954qVZmt5azPS5PrvPW5hTY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-zieli-6000.3.13" (connect: 0.00s, validation: 0.00s, handshake: 0.77s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13-notifications" at "2026-04-22T14:33:38.512042Z"
+[Licensing::Module] Licensing Background thread has ended after 1.67s
+[Licensing::Module] Licensing is initialized (took 0.26s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475483376267-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.970 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.645 seconds
+Domain Reload Profiling: 1609ms
+	BeginReloadAssembly (420ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (142ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (645ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6447 unused Assets / (4.7 MB). Loaded Objects now: 7249.
+Memory consumption went from 160.7 MB to 156.0 MB.
+Total: 6.741400 ms (FindLiveObjects: 0.572900 ms CreateObjectMapping: 0.377400 ms MarkObjects: 3.914200 ms  DeleteObjects: 1.875500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 61414.414168 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_ShopFront_07.prefab
+  artifactKey: Guid(1d8605b9e6d7df84993e7c33030aa1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_ShopFront_07.prefab using Guid(1d8605b9e6d7df84993e7c33030aa1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '655c023ec5c08a713a6addafe97ba41a') in 0.4374444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.825690 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_ShopFront_08_Larger.prefab
+  artifactKey: Guid(1e2afc2f4479ecf4ba8c6e4ced572f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_ShopFront_08_Larger.prefab using Guid(1e2afc2f4479ecf4ba8c6e4ced572f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53b053f7d4f7ced9e47d09cf76c1904a') in 0.0336086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.305192 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Shopfront_Door_03.prefab
+  artifactKey: Guid(34f6ac05bb12af249b7e44d9aa4c4800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Shopfront_Door_03.prefab using Guid(34f6ac05bb12af249b7e44d9aa4c4800) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de5bf350d338a7d1f1a2cd9834b83e5') in 0.0262528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054435 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Ceiling_Corner_01.prefab
+  artifactKey: Guid(74b26d29899144a44b281ef94a9244d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Ceiling_Corner_01.prefab using Guid(74b26d29899144a44b281ef94a9244d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7cf9bb7a23b3454d54868265d874a41') in 0.0182128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010512 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Block_Top_01.prefab
+  artifactKey: Guid(1f0fbcd70e3271d4497b828705bc8435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Block_Top_01.prefab using Guid(1f0fbcd70e3271d4497b828705bc8435) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f0e37b7f355d02dd83bf2e4a5df0b2d') in 0.0187543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_01_Pillar_01.prefab
+  artifactKey: Guid(f78559aeb152c9d42beb59a8a7d61887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_01_Pillar_01.prefab using Guid(f78559aeb152c9d42beb59a8a7d61887) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ad9306f6ebd1f6233c82f453f310e90') in 0.0161357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.283019 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_01_Pillar_03.prefab
+  artifactKey: Guid(320e966473ec70f4d91fd9a25e770993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_01_Pillar_03.prefab using Guid(320e966473ec70f4d91fd9a25e770993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2650f14701ad8454a60b9023fdd8bccc') in 0.0187502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048396 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_02_Pillar_01.prefab
+  artifactKey: Guid(3d4f7c1f14d7e8b42a1ed36edbac3162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_02_Pillar_01.prefab using Guid(3d4f7c1f14d7e8b42a1ed36edbac3162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6364fd7913c0d5186842501718f43802') in 0.018338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.492834 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_03.prefab
+  artifactKey: Guid(fce9b1051148e514c9d13d4ecfc0741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_03.prefab using Guid(fce9b1051148e514c9d13d4ecfc0741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3568f851488c727fdda74249659a13f1') in 0.0187399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013729 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_03_Pillar_04.prefab
+  artifactKey: Guid(c5b45555f91ff0e46a9cf91c1e61f9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_03_Pillar_04.prefab using Guid(c5b45555f91ff0e46a9cf91c1e61f9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49741f0371ba6cadbf2cdbd9aa81a3ea') in 0.0202562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.342525 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_04.prefab
+  artifactKey: Guid(8e27c69b4e123ef409eba459085c8c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_04.prefab using Guid(8e27c69b4e123ef409eba459085c8c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4631cfe6b312ebdc9ee2db045db2a4fc') in 0.0197536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322207 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_04_Pillar_04.prefab
+  artifactKey: Guid(c9cdc9a96557d2040a6dddbb2e47a964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_High_04_Pillar_04.prefab using Guid(c9cdc9a96557d2040a6dddbb2e47a964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a72d62cef08be83d2aade802155081fe') in 0.0199087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_01.prefab
+  artifactKey: Guid(ccff9038b15997944aee7f8121224b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_01.prefab using Guid(ccff9038b15997944aee7f8121224b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4bf31910bae6e08eadbf8bccf66fbc6') in 0.0152749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.338796 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_01_Pillar_02.prefab
+  artifactKey: Guid(e03a54214d5eb7f48a2a971874e8ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_01_Pillar_02.prefab using Guid(e03a54214d5eb7f48a2a971874e8ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59af0d1cf5fe8079bac3ece536b625c1') in 0.0166891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_02.prefab
+  artifactKey: Guid(2e20c548ec66ba84ab14278ff35ad505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_02.prefab using Guid(2e20c548ec66ba84ab14278ff35ad505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2c7e6defae10f7c6bff7dd8c86804a7') in 0.0236006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.295752 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_02_Pillar_04.prefab
+  artifactKey: Guid(c530226b6f27ec3469e7429aec9cacbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_02_Pillar_04.prefab using Guid(c530226b6f27ec3469e7429aec9cacbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a11c24d609c8485e919817e41ab8188d') in 0.0160637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_03_Pillar_02.prefab
+  artifactKey: Guid(0f7478dd8b5ae394a998cea211ad9bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_03_Pillar_02.prefab using Guid(0f7478dd8b5ae394a998cea211ad9bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36ec85e66923ba7743102167150233c9') in 0.0182972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157136 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_03_Pillar_04.prefab
+  artifactKey: Guid(f0071166f038efc45b1b1cd329c5e226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Trim_Wall_Low_03_Pillar_04.prefab using Guid(f0071166f038efc45b1b1cd329c5e226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '946b6b1edd563c3242809aeb6138697d') in 0.0171653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Wall_Elevator_01.prefab
+  artifactKey: Guid(a941e8884642bf8458b6bd8a497bf0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Wall_Elevator_01.prefab using Guid(a941e8884642bf8458b6bd8a497bf0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7e0e19f613aab4f34b1cdd9cdec2a02') in 0.0372417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Wall_Shutter_01.prefab
+  artifactKey: Guid(6eeaed610d8841a429a6b7609a70ab0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Wall_Shutter_01.prefab using Guid(6eeaed610d8841a429a6b7609a70ab0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfd3f7aef7bffe72f688d2674c33d0d9') in 0.063394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Wall_Window_Grid_01.prefab
+  artifactKey: Guid(c1f932d66a56b4d4dbf91737b1198658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Wall_Window_Grid_01.prefab using Guid(c1f932d66a56b4d4dbf91737b1198658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec3c85840917bfdb833b012b885e2a10') in 0.0313069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067940 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Inside_03.prefab
+  artifactKey: Guid(5341913c22554cb47b0174231ac2fb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Inside_03.prefab using Guid(5341913c22554cb47b0174231ac2fb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '077c6743a64b392e506615128a058e11') in 0.031211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039260 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Inside_05.prefab
+  artifactKey: Guid(5e61c76d94b6f274491689478fe2d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Inside_05.prefab using Guid(5e61c76d94b6f274491689478fe2d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b4af2902c54e3a79bda4b4059396da6') in 0.0260659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.797346 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Inside_Group_02.prefab
+  artifactKey: Guid(0605a026e07dd834781157faaec82057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Inside_Group_02.prefab using Guid(0605a026e07dd834781157faaec82057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '297b3195dd46d54b5792104b2c3edd0a') in 0.0250595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.829010 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Outside_02.prefab
+  artifactKey: Guid(983e6bef452f724449df66a408603a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Outside_02.prefab using Guid(983e6bef452f724449df66a408603a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5162fd774ea24d73b2e5a5dc3d70ff8a') in 0.0221712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Outside_04.prefab
+  artifactKey: Guid(1c6fc8cd50993cd42b6bbabad7756cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Outside_04.prefab using Guid(1c6fc8cd50993cd42b6bbabad7756cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4df291f59a215bef951c8c469a9eb392') in 0.029371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001383 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Outside_06.prefab
+  artifactKey: Guid(bdd4989b6664bb14eb6e7d832de1f381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Outside_06.prefab using Guid(bdd4989b6664bb14eb6e7d832de1f381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d9a98b9cee932c057ded55efd16b283') in 0.0248203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.342608 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Outside_08.prefab
+  artifactKey: Guid(9be0859d49dc05849b3586867841f292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Window_Poster_Outside_08.prefab using Guid(9be0859d49dc05849b3586867841f292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a1290bbbf7dada740062092b49394f') in 0.0241819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.292702 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/FX/FX_Escalator_Up_01.prefab
+  artifactKey: Guid(4399e0fd4af0e2647bc9c0ed2f09a984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/FX/FX_Escalator_Up_01.prefab using Guid(4399e0fd4af0e2647bc9c0ed2f09a984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b03591f456caa1d8730d2f05abc6a4e7') in 0.0210578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.252265 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Apple_Strudel_01.prefab
+  artifactKey: Guid(6a3e764e4e6bca341b5b6c371fc3af43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Apple_Strudel_01.prefab using Guid(6a3e764e4e6bca341b5b6c371fc3af43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7eaee6a4568c77300c8bb02056e809e0') in 0.0254434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bacon_Cooked_02.prefab
+  artifactKey: Guid(560b11fae0415dc42a2f7c093cba599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bacon_Cooked_02.prefab using Guid(560b11fae0415dc42a2f7c093cba599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e333bb8d8b9f5b154733c11d7731ed67') in 0.0285323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bagel_02.prefab
+  artifactKey: Guid(2cb3b117f81b99f41afafd76ba96c4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bagel_02.prefab using Guid(2cb3b117f81b99f41afafd76ba96c4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a40f9fb6b40545f43c968beaf5e6bb0a') in 0.0302225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bagel_Half_01.prefab
+  artifactKey: Guid(77c766c5555243b49a7f5fbb524fc5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bagel_Half_01.prefab using Guid(77c766c5555243b49a7f5fbb524fc5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f960ab68931ddda350a1bc577ba1fd2') in 0.0336072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Banana_Bunch_01_Optimized.prefab
+  artifactKey: Guid(b07d677bfeeb2794594475c49adbdcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Banana_Bunch_01_Optimized.prefab using Guid(b07d677bfeeb2794594475c49adbdcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9e96c29bee55e2ab0828c27c5cd16bf') in 0.0410967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bun_Bottom_01.prefab
+  artifactKey: Guid(7535da004f3a51648bb02dd952f5d55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bun_Bottom_01.prefab using Guid(7535da004f3a51648bb02dd952f5d55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '296dab8f3b85e7b64eca42df4f28c117') in 0.0423635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331420 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bun_Top_01.prefab
+  artifactKey: Guid(bae6d05c629d3594ea5c6a33b7695b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Bun_Top_01.prefab using Guid(bae6d05c629d3594ea5c6a33b7695b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49e09814810bcb66dcffce624bae3cb9') in 0.023783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Burger_01.prefab
+  artifactKey: Guid(6b5abe0287d274a41a0de0588f928eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Burger_01.prefab using Guid(6b5abe0287d274a41a0de0588f928eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fa65a87f4d533ae696d2362f6c721bd') in 0.0446892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.648595 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Burger_Box_01.prefab
+  artifactKey: Guid(aeefae1ed7a2fcd4b8140e3072f763f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Burger_Box_01.prefab using Guid(aeefae1ed7a2fcd4b8140e3072f763f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f7da1ae0b7c7152a0495a862ca9320a') in 0.0278388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_01.prefab
+  artifactKey: Guid(e23a245195daca644a0d37831c0a886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_01.prefab using Guid(e23a245195daca644a0d37831c0a886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d7d827d8ddc4cf0e82e20b0f9d86049') in 0.0302175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.300323 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_02.prefab
+  artifactKey: Guid(733ad8bbc20c0d84193b3f57cfa82d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_02.prefab using Guid(733ad8bbc20c0d84193b3f57cfa82d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '764094fc939536494d721bfb1b020233') in 0.0202796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.279976 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_03.prefab
+  artifactKey: Guid(799782f4580505c40bbc50a8eee86114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_03.prefab using Guid(799782f4580505c40bbc50a8eee86114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33d0d2541799bc136f8ce27bb52bf70a') in 0.0249107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_04.prefab
+  artifactKey: Guid(28d2a93d31834ea4a87436cdfb4d5c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_04.prefab using Guid(28d2a93d31834ea4a87436cdfb4d5c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ab1cfec5a03568986941f3ce6171cfd') in 0.0196919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.492848 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_06.prefab
+  artifactKey: Guid(cd2a306299814d34e9d54fa0633599ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_06.prefab using Guid(cd2a306299814d34e9d54fa0633599ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2da49fe2bf5584d5eab1b50916ea8620') in 0.0275422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369614 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_Slice_01.prefab
+  artifactKey: Guid(f96d22575f9d658458da5a51ce06bb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_Slice_01.prefab using Guid(f96d22575f9d658458da5a51ce06bb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1520b47249500fccc594b69196e9f4a3') in 0.0291036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_Slice_03.prefab
+  artifactKey: Guid(4d165e676d591604aaa3b0f33a0c36ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_Slice_03.prefab using Guid(4d165e676d591604aaa3b0f33a0c36ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c76f2dfec1361e3de81c51e99ef07a9') in 0.0299585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.349048 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_Slice_05.prefab
+  artifactKey: Guid(7844b2fb876abe64e91adec93f07fb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cake_Slice_05.prefab using Guid(7844b2fb876abe64e91adec93f07fb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '917cd08ab52a0a0805d519b5b3450588') in 0.0246498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cheese_Grated_01.prefab
+  artifactKey: Guid(badad962db30b9a4dbf326f4a2930b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cheese_Grated_01.prefab using Guid(badad962db30b9a4dbf326f4a2930b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01584678ad5fef5cbc2b2f5e3e4a5e4c') in 0.0304134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.521308 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cheese_Slice_02.prefab
+  artifactKey: Guid(6bf62a6114a228a42979810aec964169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cheese_Slice_02.prefab using Guid(6bf62a6114a228a42979810aec964169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60b827f111ec868020c0bdb2aab629fa') in 0.0228681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003878 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Breast_Burnt_01.prefab
+  artifactKey: Guid(a1f271dee6efbc84a898e9b51ea87621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Breast_Burnt_01.prefab using Guid(a1f271dee6efbc84a898e9b51ea87621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b0eb691115c9751c886912149a67f96') in 0.0308825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Breast_Cooked_02.prefab
+  artifactKey: Guid(a8abbb43cbe85eb40a65303548ab3b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Breast_Cooked_02.prefab using Guid(a8abbb43cbe85eb40a65303548ab3b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dc54e717297c8a8472eed75312f5c20') in 0.0283875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578384 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Breast_Raw_01.prefab
+  artifactKey: Guid(b00f6bcba60ab784f8fa1d5e3cf046d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Breast_Raw_01.prefab using Guid(b00f6bcba60ab784f8fa1d5e3cf046d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec09dab3ba2e11652f8fc7c9600004d2') in 0.0231362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002070 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Leg_Cooked_01.prefab
+  artifactKey: Guid(a8dc5c0b95a7eed4aa8256f53ab44ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Leg_Cooked_01.prefab using Guid(a8dc5c0b95a7eed4aa8256f53ab44ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45df7e6dcd502ce9f021b32c0f9775cf') in 0.0282468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Pile_03.prefab
+  artifactKey: Guid(41b7529757205ee4b9abec144c8fd5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Pile_03.prefab using Guid(41b7529757205ee4b9abec144c8fd5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '238942447f68d67b1ba0ce5f02ec859c') in 0.0352103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.587136 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Wing_Burnt_01.prefab
+  artifactKey: Guid(49c5e9be9c0ce1345a761024cc40322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Wing_Burnt_01.prefab using Guid(49c5e9be9c0ce1345a761024cc40322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2bc29a9a1f10cad3a9dffcb131823b3') in 0.0233075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.321562 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Wing_Raw_01.prefab
+  artifactKey: Guid(160d1702ba7049248a13638df5b284f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Chicken_Wing_Raw_01.prefab using Guid(160d1702ba7049248a13638df5b284f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6baf0a39a744e325875f8f2f626d8ad') in 0.0213241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cookie_01.prefab
+  artifactKey: Guid(659c9849050ca054e87249538a67a524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cookie_01.prefab using Guid(659c9849050ca054e87249538a67a524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f69a7af66897c1174f99c4d1f88edd3') in 0.0199072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.782289 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cream_Donut_01.prefab
+  artifactKey: Guid(f70abdaad121e5c4dab19b36befddf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cream_Donut_01.prefab using Guid(f70abdaad121e5c4dab19b36befddf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '116d103610179f866c81c93a25c70270') in 0.024455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Croissant_01.prefab
+  artifactKey: Guid(d53af0fc2004863449ad0a9f0b5e0fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Croissant_01.prefab using Guid(d53af0fc2004863449ad0a9f0b5e0fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45ab47be1b85187c3b95db2d024e1e7d') in 0.0205039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cup_01.prefab
+  artifactKey: Guid(ab2f1d06c3929564c8ae0bc3875faaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cup_01.prefab using Guid(ab2f1d06c3929564c8ae0bc3875faaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1c8a55d1bd37e7bcb2265845cf229c8') in 0.0219783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.292098 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cup_03.prefab
+  artifactKey: Guid(bf82f0a6eb1cf7343b6191d68c61d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cup_03.prefab using Guid(bf82f0a6eb1cf7343b6191d68c61d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d92f2e028c193aeaace96f4df328d08') in 0.0225416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002111 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cup_06.prefab
+  artifactKey: Guid(4c2c5aa5a103eda4c83fd0195f142ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cup_06.prefab using Guid(4c2c5aa5a103eda4c83fd0195f142ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd57fd75418225c55a45720916acc47b9') in 0.0233668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.324175 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cup_Lid_01.prefab
+  artifactKey: Guid(67a1bb0dd248c65438a0ca900b195e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Cup_Lid_01.prefab using Guid(67a1bb0dd248c65438a0ca900b195e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a24ff33c329edf376a73926ff697ce') in 0.0210232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Custard_Square_01.prefab
+  artifactKey: Guid(cb6e30214c607824493e3a21369ca271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Custard_Square_01.prefab using Guid(cb6e30214c607824493e3a21369ca271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e83ad184bff7f9dcc1ed974210c21a0a') in 0.0221997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.592908 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Donut_03.prefab
+  artifactKey: Guid(1d44fa0bdf095dd4ea6a0a4c63216d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Donut_03.prefab using Guid(1d44fa0bdf095dd4ea6a0a4c63216d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f073ae823a7ab68ad19bf66ffab9f2') in 0.021599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Donut_05.prefab
+  artifactKey: Guid(f4df479467078ac4d85a8564b519102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Donut_05.prefab using Guid(f4df479467078ac4d85a8564b519102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fbb2a371d3cced97f607e62417de158') in 0.0254883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224923 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Egg_Whole_01.prefab
+  artifactKey: Guid(88d333ebe16c3b949b9d020cbe2e7dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Egg_Whole_01.prefab using Guid(88d333ebe16c3b949b9d020cbe2e7dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58a2612a54466c07853eb1e5d7bc745d') in 0.021565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Fish_Filleted_01.prefab
+  artifactKey: Guid(0e0792ea3ce17f64599d1a1f446b1be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Fish_Filleted_01.prefab using Guid(0e0792ea3ce17f64599d1a1f446b1be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90f6279cb46a57d5404205c3a1714b02') in 0.0194454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Fish_Whole_01.prefab
+  artifactKey: Guid(2bbef51df52518340b69da514151a9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Fish_Whole_01.prefab using Guid(2bbef51df52518340b69da514151a9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af292822df661fa6a49ad025fb07775a') in 0.024896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Fries_01.prefab
+  artifactKey: Guid(34325414543cb1c4f8b518e01768d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Fries_01.prefab using Guid(34325414543cb1c4f8b518e01768d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03e1c24fc3d2f221a1791d814180e017') in 0.0245282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Fries_Raw_01.prefab
+  artifactKey: Guid(b14f10191ede8d54d9810832416b29c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Fries_Raw_01.prefab using Guid(b14f10191ede8d54d9810832416b29c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e163a500af7b52a5537a13e6ff3d1c30') in 0.0270435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Kebab_01.prefab
+  artifactKey: Guid(fda1f3f24ff5cbc4baccf57660381761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Kebab_01.prefab using Guid(fda1f3f24ff5cbc4baccf57660381761) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7feb9c05c218102926ccfea085cafe17') in 0.021933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.244740 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Kebab_03.prefab
+  artifactKey: Guid(921fae4123989ac4ea5aeeebbedd144c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Kebab_03.prefab using Guid(921fae4123989ac4ea5aeeebbedd144c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae28124925c0a696c4e7cf86e6018df0') in 0.0211454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Kiwi_Fruit_01.prefab
+  artifactKey: Guid(dbc37d81a60aa704e8e99b2cff0b397c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Kiwi_Fruit_01.prefab using Guid(dbc37d81a60aa704e8e99b2cff0b397c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64ecb1b8b3fe8c5436046ee7a3b19e2b') in 0.025613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Lettuce_Leaves_01.prefab
+  artifactKey: Guid(70b75dc08fdfbf94281d5fd296623ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Lettuce_Leaves_01.prefab using Guid(70b75dc08fdfbf94281d5fd296623ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb6fa3ff08b399d3a707ff715c505e78') in 0.023222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245321 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Luncheon_Chunk_01.prefab
+  artifactKey: Guid(71fe1ac5b01882b4497c852ca87aec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Luncheon_Chunk_01.prefab using Guid(71fe1ac5b01882b4497c852ca87aec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ca24102717b9d995ebab3e5d13afd20') in 0.0237694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Meat_Patty_Burnt_01.prefab
+  artifactKey: Guid(267ddfbd00586fa48ad83912e2f9293d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Meat_Patty_Burnt_01.prefab using Guid(267ddfbd00586fa48ad83912e2f9293d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cfb3e52a4639d41cd2f30cc58241822') in 0.0216747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Muffin_02.prefab
+  artifactKey: Guid(07298c56fc13f2d4fb39a309cce81ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Muffin_02.prefab using Guid(07298c56fc13f2d4fb39a309cce81ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6efcf1a06ee5b0da1659e47b933207bf') in 0.0229324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257623 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Mushroom_Sliced_01.prefab
+  artifactKey: Guid(a31ea06d56e93ce459b73409a04fac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Mushroom_Sliced_01.prefab using Guid(a31ea06d56e93ce459b73409a04fac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf1697fad18695c58a04de6582afb4d5') in 0.0233042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Onion_Burnt_01.prefab
+  artifactKey: Guid(8069b47da92f17443893ad7d583b5f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Onion_Burnt_01.prefab using Guid(8069b47da92f17443893ad7d583b5f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edc2a946b65a8757111867df99e4720a') in 0.022194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446454 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Onion_Ring_01.prefab
+  artifactKey: Guid(a75b71a19112d474d854a5990f77dd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Onion_Ring_01.prefab using Guid(a75b71a19112d474d854a5990f77dd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60f7c53e1df27febc4227e7de5326589') in 0.0226043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Onion_Whole_01.prefab
+  artifactKey: Guid(6b3cf99ce5a2f2340a4da866e950cacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Onion_Whole_01.prefab using Guid(6b3cf99ce5a2f2340a4da866e950cacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '892d7e0ca98735bae75af62663d03571') in 0.0224061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.309401 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Oven_Tray_01_Ribs_Burnt_01.prefab
+  artifactKey: Guid(3d92a85e438b49e439ed996b7e0a34e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Oven_Tray_01_Ribs_Burnt_01.prefab using Guid(3d92a85e438b49e439ed996b7e0a34e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8480dac03a158640a5514781a59c8cbe') in 0.0223683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Oven_Tray_01_Ribs_Raw_01.prefab
+  artifactKey: Guid(e346f6a171116e94898dff0bd2b987e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Oven_Tray_01_Ribs_Raw_01.prefab using Guid(e346f6a171116e94898dff0bd2b987e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36c21f30b14be9248dedbad3dcc1e64f') in 0.0268156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003802 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pickle_Slice_01.prefab
+  artifactKey: Guid(b4b7bc9abfa698d44acffbbda00fe4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pickle_Slice_01.prefab using Guid(b4b7bc9abfa698d44acffbbda00fe4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28d26a251e786e445aa6b91e127596bd') in 0.0240355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.227750 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pickle_Whole_01.prefab
+  artifactKey: Guid(b4f64eb6d0c17794fb21993fad55e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pickle_Whole_01.prefab using Guid(b4f64eb6d0c17794fb21993fad55e895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38426dbb7d9c026e18904669feca7f8b') in 0.0237334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057513 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pie_Fruit_Cut_01.prefab
+  artifactKey: Guid(ab995b30076add04dafe700327b6ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pie_Fruit_Cut_01.prefab using Guid(ab995b30076add04dafe700327b6ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a329a53683f3066580b962c4fb29c697') in 0.0230119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.286099 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pie_Meat_01.prefab
+  artifactKey: Guid(3223495447544b948b612a56692ae318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pie_Meat_01.prefab using Guid(3223495447544b948b612a56692ae318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8fff14d4402a368fd9c81c29b33e59d') in 0.022386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381813 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pie_Pumpkin_Slice_01.prefab
+  artifactKey: Guid(120ba84b70c627c4d85d5982028276a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pie_Pumpkin_Slice_01.prefab using Guid(120ba84b70c627c4d85d5982028276a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b26fae55b70a6cffc7a9ab39838293a') in 0.0217756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pineapple_Ring_01.prefab
+  artifactKey: Guid(8df72657348b5f14680f1e4dac539294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pineapple_Ring_01.prefab using Guid(8df72657348b5f14680f1e4dac539294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e6ab8a010b3fdf358fac5b5473459ad') in 0.0217451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pineapple_Whole_01_Optimized.prefab
+  artifactKey: Guid(4544a44d181aec14884fe50be021df1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pineapple_Whole_01_Optimized.prefab using Guid(4544a44d181aec14884fe50be021df1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68b481b167b6b6fc0b7cd758a8ac776d') in 0.0217902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.267553 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Burnt_02.prefab
+  artifactKey: Guid(e77a1935aedc9f9428bfd155d1c9c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Burnt_02.prefab using Guid(e77a1935aedc9f9428bfd155d1c9c12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dff86125983973386dbf86989c78cd05') in 0.0224323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Burnt_06.prefab
+  artifactKey: Guid(20e63154c4a15ea438363ab5221666ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Burnt_06.prefab using Guid(20e63154c4a15ea438363ab5221666ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3751fb6e6590fc1dd955b1eb9dbcb73') in 0.0232473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.572749 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Cooked_01.prefab
+  artifactKey: Guid(801b12dffcfe64a46ba301da7a29306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Cooked_01.prefab using Guid(801b12dffcfe64a46ba301da7a29306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fac18a66e01d8c27cf8dd4f71ee5764') in 0.0211135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Cooked_04.prefab
+  artifactKey: Guid(b3c57ee58891e0f4a98b7067701c426f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Cooked_04.prefab using Guid(b3c57ee58891e0f4a98b7067701c426f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05552aede6c243afa6beadc663f2958e') in 0.0216959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Cooked_07.prefab
+  artifactKey: Guid(8ce780f337a443e488ddec477c31a580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Cooked_07.prefab using Guid(8ce780f337a443e488ddec477c31a580) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '623b057e1726006bc136254360efd868') in 0.027688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303226 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Cooked_09.prefab
+  artifactKey: Guid(ddcd42d04f132b746bb59fb0f8efe4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Cooked_09.prefab using Guid(ddcd42d04f132b746bb59fb0f8efe4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '192b256a77925d934b6996b0bc9acb7a') in 0.0231633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006319 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Raw_03.prefab
+  artifactKey: Guid(4dce406dbb274cc41b02424093f4558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Raw_03.prefab using Guid(4dce406dbb274cc41b02424093f4558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b286d266b97d4d756e3e580550f0a65') in 0.0235239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.724311 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Raw_05.prefab
+  artifactKey: Guid(96f1cf752925f11488ed25b65cab44ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Raw_05.prefab using Guid(96f1cf752925f11488ed25b65cab44ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8290c00fe89e6b213aaef0e8f295bab6') in 0.0236501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Raw_09.prefab
+  artifactKey: Guid(f08b7c8bc7bf8384fb2626968065e5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Raw_09.prefab using Guid(f08b7c8bc7bf8384fb2626968065e5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0cf7f81cddda3c2330385c726f80bda') in 0.0282163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303469 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Slice_02.prefab
+  artifactKey: Guid(9b806f4eda28bec4c803f5d39440d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Slice_02.prefab using Guid(9b806f4eda28bec4c803f5d39440d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6051c05b2412309f7fbff7d77c8b3be5') in 0.0216196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Slice_05.prefab
+  artifactKey: Guid(151f7a004370b2f409eb0a9eed405e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Pizza_Slice_05.prefab using Guid(151f7a004370b2f409eb0a9eed405e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cff879f1a297ab919b2d5d1acd458da0') in 0.0246896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.289173 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Plastic_Tray_01.prefab
+  artifactKey: Guid(7f2e669c1c566b54ebdd1fa0d4c2ce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Plastic_Tray_01.prefab using Guid(7f2e669c1c566b54ebdd1fa0d4c2ce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e8832d8bd3ff9ae0b9e3e13b9f07d47') in 0.0214152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Quiche_01.prefab
+  artifactKey: Guid(8dc170444bddc9746a0b4668def643e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Quiche_01.prefab using Guid(8dc170444bddc9746a0b4668def643e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ee01b948773b0f850ce4cd6d4036b94') in 0.0231963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.253437 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Ribs_Large_Cooked_01.prefab
+  artifactKey: Guid(5ac4727211a64694bbeb17e30f597271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Ribs_Large_Cooked_01.prefab using Guid(5ac4727211a64694bbeb17e30f597271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7af3480e309bbe1d9833b24aad3ff24c') in 0.0211743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Ribs_Small_Burnt_01.prefab
+  artifactKey: Guid(153f2190c95973e4f8a7226b814a3171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Ribs_Small_Burnt_01.prefab using Guid(153f2190c95973e4f8a7226b814a3171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6196df74e7fa74d79f7853a12f92db8e') in 0.0224275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Salami_Slice_01.prefab
+  artifactKey: Guid(82a11e8b10a6f444f83f99a1fb064c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Salami_Slice_01.prefab using Guid(82a11e8b10a6f444f83f99a1fb064c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bf52c0229288030430cc03eb21dca9f') in 0.02305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sandwich_04.prefab
+  artifactKey: Guid(bf5b9c85c22840b48a67d6a73952a373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sandwich_04.prefab using Guid(bf5b9c85c22840b48a67d6a73952a373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aef2d8cc0b4d751a045d154981d13689') in 0.0248929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sauce_Mayo_01.prefab
+  artifactKey: Guid(672220e80f94d884cb88f64941ae90de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sauce_Mayo_01.prefab using Guid(672220e80f94d884cb88f64941ae90de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecf6d317c8d23ea828f586aa54829619') in 0.0236677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sauce_Bowl_01.prefab
+  artifactKey: Guid(4e105c3c283d76145912a88c745014e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sauce_Bowl_01.prefab using Guid(4e105c3c283d76145912a88c745014e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0b4eadb0b5ea49c481df38e8e61244a') in 0.0224517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sauce_Packet_03.prefab
+  artifactKey: Guid(0e25123f1eff70241b35023f7c7fd496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sauce_Packet_03.prefab using Guid(0e25123f1eff70241b35023f7c7fd496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e84b4affead00a10d1720b5869dbd50f') in 0.0222649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.242829 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Saucer_02.prefab
+  artifactKey: Guid(cfceaa4e45dc16247a5a5c46d3d294a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Saucer_02.prefab using Guid(cfceaa4e45dc16247a5a5c46d3d294a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18bb7e36e4f3d2069ddaa8a65da32727') in 0.0221194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sausage_Cooked_02.prefab
+  artifactKey: Guid(aa4cf698f866a994cb7aab803adea7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sausage_Cooked_02.prefab using Guid(aa4cf698f866a994cb7aab803adea7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07755ddd6ed4cc7cdddc29ef51214631') in 0.0221192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sausage_String_01.prefab
+  artifactKey: Guid(1d78cb24b471d3b42835e1c8865e3bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sausage_String_01.prefab using Guid(1d78cb24b471d3b42835e1c8865e3bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a4eef888c3d6dfb47db587c0508a5f7') in 0.0241076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sushi_03.prefab
+  artifactKey: Guid(777030fe1d461ed4ead638c9e3796a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sushi_03.prefab using Guid(777030fe1d461ed4ead638c9e3796a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70fa7efedd37128a9199429bc3629fbb') in 0.0221693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446522 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sushi_05.prefab
+  artifactKey: Guid(9a9aa6bcd7cf8d14d808386cd21c6291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sushi_05.prefab using Guid(9a9aa6bcd7cf8d14d808386cd21c6291) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0faaffb41f2ead46936ab728d9fd3c51') in 0.0225348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Taco_01.prefab
+  artifactKey: Guid(f7caa8d94b5f9d24a9487e704eea03a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Taco_01.prefab using Guid(f7caa8d94b5f9d24a9487e704eea03a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37634e52472d0c8088f849a852a1a2f7') in 0.0221646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224885 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Taco_04.prefab
+  artifactKey: Guid(72c62f65ef2b36a4287a21fb99aa037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Taco_04.prefab using Guid(72c62f65ef2b36a4287a21fb99aa037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b2c9b10a9a216ce0407c3dc824de65b') in 0.0228648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285119 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Taco_06.prefab
+  artifactKey: Guid(f2bad4641ca449645bc1a7db1afa2780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Taco_06.prefab using Guid(f2bad4641ca449645bc1a7db1afa2780) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '402fd59663b2618f3ff41c68a17de60a') in 0.0218124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285846 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Toast_01.prefab
+  artifactKey: Guid(1e64a5493208ce1468616c54d4ced0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Toast_01.prefab using Guid(1e64a5493208ce1468616c54d4ced0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ebb118f1fa5f86251e567cbcafc12f6') in 0.0224334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Tomato_Chunk_02.prefab
+  artifactKey: Guid(4983c2fb203850e4a99ab3d816df2e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Tomato_Chunk_02.prefab using Guid(4983c2fb203850e4a99ab3d816df2e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bc7d40f549da7670fe4506a1e9308e6') in 0.0257549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.379385 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Tray_01_Food_01.prefab
+  artifactKey: Guid(b423e54177dc6d549a9967d9c8ef0ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Tray_01_Food_01.prefab using Guid(b423e54177dc6d549a9967d9c8ef0ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '371bd70e11e96857cdde391a7c8f6da6') in 0.0218644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Tray_01_Food_03.prefab
+  artifactKey: Guid(ef755ec549b9f104dafe1430a6b46ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Tray_01_Food_03.prefab using Guid(ef755ec549b9f104dafe1430a6b46ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '068708fac0d897ed3cfcf11873182eac') in 0.0237042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.746340 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Watermelon_01.prefab
+  artifactKey: Guid(fc80d6e5084a1d0419df75a427caad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Watermelon_01.prefab using Guid(fc80d6e5084a1d0419df75a427caad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e756c82ae1a70b59888300d0178cfb3') in 0.0219029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Watermelon_Slice_02.prefab
+  artifactKey: Guid(da2bb5f5b7a585c4f89070f28ac623bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Watermelon_Slice_02.prefab using Guid(da2bb5f5b7a585c4f89070f28ac623bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5c408c33ff23fa5567bbf9de8734443') in 0.0221667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Wrap_02.prefab
+  artifactKey: Guid(773fca617d780064fa793a60e6283cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Wrap_02.prefab using Guid(773fca617d780064fa793a60e6283cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd13b76870139e2d68e957084de813d90') in 0.0225045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.047344 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '413f40b24078c2e5b2ae61cf0bb40a3b') in 0.0516334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

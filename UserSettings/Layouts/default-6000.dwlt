@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 383
     height: 1293
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 37
+  controlID: 57
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -148,8 +148,8 @@ MonoBehaviour:
     y: 889
     width: 1638
     height: 404
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 126}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 58
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 39
+  controlID: 59
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -624,7 +624,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
   m_SearchFilter:
-    m_NameFilter: sign
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -634,17 +634,17 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Synty/PolygonApocalypse
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
-    m_OriginalText: sign
+    m_OriginalText: 
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Synty/PolygonApocalypse
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Game Development\DisasterDiner
   m_LockTracker:
@@ -653,28 +653,29 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 50212
+    - m_Data: 56502
     m_LastClickedID:
-      m_Data: 50212
+      m_Data: 56502
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49912
-    - m_Data: 49914
-    - m_Data: 49916
-    - m_Data: 49918
-    - m_Data: 50212
-    - m_Data: 51186
-    - m_Data: 62078
-    - m_Data: 62458
-    - m_Data: 64916
-    - m_Data: 65144
-    - m_Data: 148172
+    - m_Data: 56502
+    - m_Data: 56504
+    - m_Data: 56506
+    - m_Data: 56508
+    - m_Data: 56510
+    - m_Data: 56512
+    - m_Data: 56514
+    - m_Data: 56516
+    - m_Data: 56518
+    - m_Data: 56520
+    - m_Data: 56522
+    - m_Data: 56524
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Item
-      m_OriginalName: Item
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -682,10 +683,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 63384
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 3}
@@ -703,10 +704,18 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49912
-    - m_Data: 49914
-    - m_Data: 49916
-    - m_Data: 49918
+    - m_Data: 56502
+    - m_Data: 56504
+    - m_Data: 56506
+    - m_Data: 56508
+    - m_Data: 56510
+    - m_Data: 56512
+    - m_Data: 56514
+    - m_Data: 56516
+    - m_Data: 56518
+    - m_Data: 56520
+    - m_Data: 56522
+    - m_Data: 56524
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -735,7 +744,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 82412
     - m_Data: 286746
@@ -766,7 +775,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 21963}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 197
@@ -866,27 +875,15 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -498944
-      - m_Data: -498940
-      - m_Data: -498800
-      - m_Data: -498796
-      - m_Data: -498792
-      - m_Data: -498788
-      - m_Data: -498784
-      - m_Data: -458094
-      - m_Data: -317786
-      - m_Data: -316354
-      - m_Data: -139062
-      - m_Data: -136300
-      - m_Data: -126562
-      - m_Data: -124914
-      - m_Data: -5112
+      - m_Data: -5430
       - m_Data: -1336
-      - m_Data: 49848
+      - m_Data: 53262
+      - m_Data: 54144
+      - m_Data: 54180
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Head
-        m_OriginalName: Head
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -894,10 +891,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: -498944
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 5}
@@ -1601,9 +1598,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 6.920851, y: 21.154076, z: 3.675338}
+    m_Target: {x: -41.373222, y: 53.702885, z: 69.53089}
     speed: 2
-    m_Value: {x: 6.920851, y: 21.154076, z: 3.675338}
+    m_Value: {x: -41.373222, y: 53.702885, z: 69.53089}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1649,13 +1646,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.022435678, y: 0.6009385, z: -0.015502011, w: 0.7992647}
+    m_Target: {x: -0.0316396, y: -0.9565517, z: 0.10491235, w: -0.27167717}
     speed: 2
-    m_Value: {x: 0.026958581, y: 0.6113551, z: -0.01946963, w: 0.79065734}
+    m_Value: {x: -0.031460598, y: -0.95372254, z: 0.10024089, w: -0.28173637}
   m_Size:
-    m_Target: 7.2447534
+    m_Target: 2.4462976
     speed: 2
-    m_Value: 7.586129
+    m_Value: 2.5615683
   m_Ortho:
     m_Target: 0
     speed: 2
