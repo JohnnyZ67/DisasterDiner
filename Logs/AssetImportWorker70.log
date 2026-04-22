@@ -1,0 +1,527 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.13f1 (8c4f11e4fb20) revision 9195281'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli" at "2026-04-22T03:47:50.376813Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32347 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-22T03:47:50Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker70
+-projectPath
+C:/Game Development/DisasterDiner
+-logFile
+Logs/AssetImportWorker70.log
+-srvPort
+60058
+-licensingIpc
+LicenseClient-zieli
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Game Development/DisasterDiner
+C:/Game Development/DisasterDiner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [52284]  Target information:
+
+Player connection [52284]  * "[IP] 192.168.86.22 [Port] 0 [Flags] 2 [Guid] 2644023560 [EditorId] 2644023560 [Version] 1048832 [Id] WindowsEditor(7,Johns_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [52284] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [52284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 48.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.13f1 (8c4f11e4fb20)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game Development/DisasterDiner/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-zieli"
+[Licensing::IpcConnector] LicenseClient-zieli channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13" at "2026-04-22T03:47:51.431216Z"
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              4c34c707d5a041b29c0d4896c950c166
+  Correlation Id:          2b999b7551c4f1abd27547e4a7907d59
+  External correlation Id: 4069402456516995714
+  Machine Id:              a0OP954qVZmt5azPS5PrvPW5hTY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-zieli-6000.3.13" (connect: 0.01s, validation: 0.00s, handshake: 0.84s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13-notifications" at "2026-04-22T03:47:52.2677955Z"
+[Licensing::Module] Licensing Background thread has ended after 1.89s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.100163 seconds.
+- Loaded All Assemblies, in 10.142 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.339 seconds
+Domain Reload Profiling: 10479ms
+	BeginReloadAssembly (8418ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (435ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (137ms)
+	LoadAllAssembliesAndSetupDomain (1140ms)
+		LoadAssemblies (8415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1138ms)
+			TypeCache.Refresh (1136ms)
+				TypeCache.ScanAssembly (866ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (300ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475483376267-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  7.635 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 8272ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (7383ms)
+		LoadAssemblies (7019ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (452ms)
+			TypeCache.Refresh (396ms)
+				TypeCache.ScanAssembly (386ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (642ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6447 unused Assets / (5.5 MB). Loaded Objects now: 7248.
+Memory consumption went from 162.7 MB to 157.2 MB.
+Total: 8.853100 ms (FindLiveObjects: 0.777000 ms CreateObjectMapping: 0.377600 ms MarkObjects: 4.990100 ms  DeleteObjects: 2.707000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22732.624074 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Armour_Shoulder_Sports_R_01.prefab
+  artifactKey: Guid(ef9dec0015e2a2343bfbb77db58e4272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Armour_Shoulder_Sports_R_01.prefab using Guid(ef9dec0015e2a2343bfbb77db58e4272) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '347ee64019f495db134645a7f2ead0c8') in 0.523425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Criminal_Male_Hair_01.prefab
+  artifactKey: Guid(5efb9876cfa995d47adf71426aad16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Criminal_Male_Hair_01.prefab using Guid(5efb9876cfa995d47adf71426aad16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '275c3d1b7e9a63035e3f02919fd4aec8') in 0.0642509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Backpack_Small_01.prefab
+  artifactKey: Guid(d2051d753ee09c3479f2236184af0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Backpack_Small_01.prefab using Guid(d2051d753ee09c3479f2236184af0281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8cce897849985fd6ba3dbf9ff61b0f3') in 0.0304154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Canteen_01.prefab
+  artifactKey: Guid(33ce22dcb204e8b40af1a4769bd33ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Canteen_01.prefab using Guid(33ce22dcb204e8b40af1a4769bd33ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dd2751930292282316eb70fd1a54274') in 0.0283365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Backpack_02.prefab
+  artifactKey: Guid(cb46091a4e57def4f9b8086e79682f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Backpack_02.prefab using Guid(cb46091a4e57def4f9b8086e79682f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea5d50a06555ebbda65edf3774b3c34') in 0.0290831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Backpack_01.prefab
+  artifactKey: Guid(ac097a787546bb24ebc0fce58ca8224d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Backpack_01.prefab using Guid(ac097a787546bb24ebc0fce58ca8224d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06a332b17ace1a2ce905053d0a54c385') in 0.0281265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Cool_Male_Hair_01.prefab
+  artifactKey: Guid(e16ee3dc07819ce448792b5e851a914c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Cool_Male_Hair_01.prefab using Guid(e16ee3dc07819ce448792b5e851a914c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a2b743b6afaf8f7ddadb24c352d50fc') in 0.0272711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Backpack_Large_Extras_01.prefab
+  artifactKey: Guid(54bfb8fe01d55ef449dcd18db51c1ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Backpack_Large_Extras_01.prefab using Guid(54bfb8fe01d55ef449dcd18db51c1ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '999a737594e81bd900ef7606d38d683a') in 0.0315876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_FootballHelmet_01.prefab
+  artifactKey: Guid(7dea907e69fa1db4888c36ce5482a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_FootballHelmet_01.prefab using Guid(7dea907e69fa1db4888c36ce5482a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a7ef7189cdd086fdbca89442e986a08') in 0.0285169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.290114 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Homeless_Male_Beard_01.prefab
+  artifactKey: Guid(035f91499cefa6e45b91d745ca05c160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Homeless_Male_Beard_01.prefab using Guid(035f91499cefa6e45b91d745ca05c160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21bcb3358adee2dc3d3c0e49f6993804') in 0.0272846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Hunter_Male_Hat_01.prefab
+  artifactKey: Guid(141fc51930b1a2c4b85d8d213c3bf3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Hunter_Male_Hat_01.prefab using Guid(141fc51930b1a2c4b85d8d213c3bf3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b995c63b9c8473f1033dea3f973c53c') in 0.0267042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Islander_Male_Hair_01.prefab
+  artifactKey: Guid(0b99d8112fdd2b540bfb14083c0168b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Islander_Male_Hair_01.prefab using Guid(0b99d8112fdd2b540bfb14083c0168b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b03cdb723015f37a163137f1281a58c') in 0.023508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246691 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Mags_01.prefab
+  artifactKey: Guid(0d4bc0a025c796d46a3b706cfde2995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Mags_01.prefab using Guid(0d4bc0a025c796d46a3b706cfde2995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152c33d23a5927e0fd95a8318b9a533c') in 0.0259826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Mags_03.prefab
+  artifactKey: Guid(6173dec1ed209a748bc2392f90235fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Mags_03.prefab using Guid(6173dec1ed209a748bc2392f90235fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fde685a099a6a01f536770fbf2171bcd') in 0.0268784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Mask_Hockey_01.prefab
+  artifactKey: Guid(403bac682a691c146a5d697d2e324167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Mask_Hockey_01.prefab using Guid(403bac682a691c146a5d697d2e324167) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89326061a079bcf86d5c577b993a8180') in 0.0315503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157814 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Nerd_Female_Hair_01.prefab
+  artifactKey: Guid(c470064cae2a66c4e96dd0a6634aa6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Nerd_Female_Hair_01.prefab using Guid(c470064cae2a66c4e96dd0a6634aa6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dee6dab2decd085a4441ae6f99917306') in 0.0261216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Patient_Female_Hair_01.prefab
+  artifactKey: Guid(3002238ec614aa347b758907204075d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Patient_Female_Hair_01.prefab using Guid(3002238ec614aa347b758907204075d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84e892a7c3941f5efd5c70a2eca1c7e2') in 0.0302936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Press_Male_Beard_01.prefab
+  artifactKey: Guid(960f9abd591b4474481589b90c711b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Press_Male_Beard_01.prefab using Guid(960f9abd591b4474481589b90c711b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9efc3549161165b54769cadbc617c526') in 0.0337732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_RiotCop_Male_Beard_01.prefab
+  artifactKey: Guid(8edd783432f985d4f9fbb2b783edf4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_RiotCop_Male_Beard_01.prefab using Guid(8edd783432f985d4f9fbb2b783edf4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c8d498f28376b32b104b9778ebe33f5') in 0.0276636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Pouch_03.prefab
+  artifactKey: Guid(f2ada9e080b6d3f41a383cd77168b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Pouch_03.prefab using Guid(f2ada9e080b6d3f41a383cd77168b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a4613587b382aebc0defdffe08550cf') in 0.0272778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Press_Male_Eyepatch_01.prefab
+  artifactKey: Guid(7d48d216c91790d4aa4a52afcce8ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Press_Male_Eyepatch_01.prefab using Guid(7d48d216c91790d4aa4a52afcce8ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a75f74e546056897f7fd7b68cb9be91d') in 0.0263852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140913 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_RiotCop_Male_Hair_01.prefab
+  artifactKey: Guid(1d6be16d8d19c3f448566c2989ed2155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_RiotCop_Male_Hair_01.prefab using Guid(1d6be16d8d19c3f448566c2989ed2155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a6c20fdf6cfc23f99f8a0453326f716') in 0.0253445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_RiotCop_Male_Radio_01.prefab
+  artifactKey: Guid(cf3eabf4256d9aa44b5f73a5c619d7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_RiotCop_Male_Radio_01.prefab using Guid(cf3eabf4256d9aa44b5f73a5c619d7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6f491b16ebebf3b0f461ff7ecbb24eb') in 0.0259274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233226 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Sheriff_Male_Hair_01.prefab
+  artifactKey: Guid(ecc4ea5a7a617064b919cd4350d2a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Sheriff_Male_Hair_01.prefab using Guid(ecc4ea5a7a617064b919cd4350d2a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23d438a011431b6176e7890127ca682b') in 0.0226055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Soldier_Female_Hair_01.prefab
+  artifactKey: Guid(b7cbd6c3a9218794b83de6dfad840c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Soldier_Female_Hair_01.prefab using Guid(b7cbd6c3a9218794b83de6dfad840c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1070402194abb5233d4bd859180050c8') in 0.0244679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_SupplyBag_01.prefab
+  artifactKey: Guid(5eeebf207d3132f4896345ca101fe4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_SupplyBag_01.prefab using Guid(5eeebf207d3132f4896345ca101fe4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7913d072d24fc5fa8fe245e27f0e2ea6') in 0.0328351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Teen_Female_Glasses_01.prefab
+  artifactKey: Guid(ed65c035edba3b042afa0f2d9254e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Teen_Female_Glasses_01.prefab using Guid(ed65c035edba3b042afa0f2d9254e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ab59c508d54cd661c70c6fd5110846a') in 0.023675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Soldier_Male_Helmet_01.prefab
+  artifactKey: Guid(65109d3ce3670da4598172f14c39a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Soldier_Male_Helmet_01.prefab using Guid(65109d3ce3670da4598172f14c39a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '861d6ce982eecc00a16c421a4a4f6e38') in 0.0262618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.207176 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Waitress_Female_Glasses_01.prefab
+  artifactKey: Guid(d144d3143fa2ac84abdcd57a4c03e6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Waitress_Female_Glasses_01.prefab using Guid(d144d3143fa2ac84abdcd57a4c03e6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40128be6e72fbf85067597ce82ea47f6') in 0.0278315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Wanderer_Male_Beard_01.prefab
+  artifactKey: Guid(993a57d2d07c75f429ac0988c30342f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Wanderer_Male_Beard_01.prefab using Guid(993a57d2d07c75f429ac0988c30342f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c39c67bc1ca668543c51339a2c9ef03e') in 0.0304257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Zombie_Male_Hair_01.prefab
+  artifactKey: Guid(5132530adc417b74695120afcca18062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Zombie_Male_Hair_01.prefab using Guid(5132530adc417b74695120afcca18062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0da09875e26f1b611093506257c29a8e') in 0.0293832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Zombie_Female_Hair_02.prefab
+  artifactKey: Guid(ee7b99102ba48fb408b8737efb9ad50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Zombie_Female_Hair_02.prefab using Guid(ee7b99102ba48fb408b8737efb9ad50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71a0ac50119a4404d8e5e9075912c881') in 0.0292533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.017136 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Armour_Shoulder_Sports_L_01.prefab
+  artifactKey: Guid(f55660c804167a94cb68d694508e04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Armour_Shoulder_Sports_L_01.prefab using Guid(f55660c804167a94cb68d694508e04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74e97bb7e2958d4bf2a4ed5c9d1aea66') in 0.0351015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011113 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Armour_Knee_Sports_L_01.prefab
+  artifactKey: Guid(6f9d0770a1ad4b448850c6a1eb3d3b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_Armour_Knee_Sports_L_01.prefab using Guid(6f9d0770a1ad4b448850c6a1eb3d3b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2b8b30da5ae3fbf098892cd311c20e8') in 0.0332685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.434708 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_HeliPad_Stairs_01.prefab
+  artifactKey: Guid(9b9a46398e015574ba59e5f8cb888e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_HeliPad_Stairs_01.prefab using Guid(9b9a46398e015574ba59e5f8cb888e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48b62de1859c914bad9e3621e341949d') in 0.0354232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_HighRise_Medium_01_Roof_01.prefab
+  artifactKey: Guid(880c2f9b781ddc54faf85dea5073ebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_HighRise_Medium_01_Roof_01.prefab using Guid(880c2f9b781ddc54faf85dea5073ebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e7b7fa10ebcf0a0c3717426660ad59f') in 0.0459453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_House_03.prefab
+  artifactKey: Guid(8e578596767278f40861a66c5c586eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_House_03.prefab using Guid(8e578596767278f40861a66c5c586eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a09324a2105cadcf02165aa93379706d') in 0.061324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

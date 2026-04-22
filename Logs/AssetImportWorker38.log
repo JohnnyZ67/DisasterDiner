@@ -1,0 +1,1168 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.13f1 (8c4f11e4fb20) revision 9195281'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32347 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli" at "2026-04-22T01:14:56.1253248Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-22T01:14:56Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker38
+-projectPath
+C:/Game Development/DisasterDiner
+-logFile
+Logs/AssetImportWorker38.log
+-srvPort
+60058
+-licensingIpc
+LicenseClient-zieli
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Game Development/DisasterDiner
+C:/Game Development/DisasterDiner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [33424]  Target information:
+
+Player connection [33424]  * "[IP] 192.168.86.22 [Port] 0 [Flags] 2 [Guid] 1312231159 [EditorId] 1312231159 [Version] 1048832 [Id] WindowsEditor(7,Johns_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33424] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.13f1 (8c4f11e4fb20)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game Development/DisasterDiner/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001744 seconds.
+- Loaded All Assemblies, in  0.399 seconds
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-zieli"
+[Licensing::IpcConnector] LicenseClient-zieli channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13" at "2026-04-22T01:14:57.1835346Z"
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.362 seconds
+Domain Reload Profiling: 759ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (139ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              6aebfb604b35421e8f3b6d4e431c1918
+  Correlation Id:          2b999b7551c4f1abd27547e4a7907d59
+  External correlation Id: 4086997276208097911
+  Machine Id:              a0OP954qVZmt5azPS5PrvPW5hTY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-zieli-6000.3.13" (connect: 0.00s, validation: 0.00s, handshake: 0.85s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13-notifications" at "2026-04-22T01:14:58.0414956Z"
+[Licensing::Module] Licensing Background thread has ended after 1.92s
+[Licensing::Module] Licensing is initialized (took 0.22s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475483376267-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.908 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.730 seconds
+Domain Reload Profiling: 1634ms
+	BeginReloadAssembly (364ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (50ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6447 unused Assets / (5.3 MB). Loaded Objects now: 7245.
+Memory consumption went from 155.8 MB to 150.5 MB.
+Total: 11.791400 ms (FindLiveObjects: 0.854300 ms CreateObjectMapping: 0.730900 ms MarkObjects: 6.279000 ms  DeleteObjects: 3.925200 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.695 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.678 seconds
+Domain Reload Profiling: 1371ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (163ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (679ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6443 unused Assets / (4.7 MB). Loaded Objects now: 7261.
+Memory consumption went from 164.2 MB to 159.5 MB.
+Total: 8.869400 ms (FindLiveObjects: 0.844500 ms CreateObjectMapping: 0.636000 ms MarkObjects: 5.153800 ms  DeleteObjects: 2.233700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13594.308902 seconds.
+  path: Assets/Synty/PolygonShops/Models/SM_Prop_Kitchen_Grill_01.fbx
+  artifactKey: Guid(f552cf49a8b165e47b47e11da3cfa1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Models/SM_Prop_Kitchen_Grill_01.fbx using Guid(f552cf49a8b165e47b47e11da3cfa1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d25e57a094bcfa5e545cc81ee8cb080') in 0.5368515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 1125.962376 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Bridge_01.prefab
+  artifactKey: Guid(842787541179ab94f9f5f199b2667e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Bridge_01.prefab using Guid(842787541179ab94f9f5f199b2667e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '710e277190f4a97c1d5ee382bf218e02') in 0.0784916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.613958 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Bridge_Edge_01.prefab
+  artifactKey: Guid(b76622cf9d47540489a3a2c34884c851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Bridge_Edge_01.prefab using Guid(b76622cf9d47540489a3a2c34884c851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf18fa01499aa01b5d333e50ecfc8484') in 0.0329148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Bridge_Middle_01.prefab
+  artifactKey: Guid(297c2ac1b38d2724593e27faeaafcca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Bridge_Middle_01.prefab using Guid(297c2ac1b38d2724593e27faeaafcca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32c9dcd086a7adc161a23524e21f5330') in 0.0312636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Edge_Destroyed_01.prefab
+  artifactKey: Guid(a5bb171a1d2a428438c2b0591108dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Edge_Destroyed_01.prefab using Guid(a5bb171a1d2a428438c2b0591108dd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a29f7934a7155050dc687463eebc9623') in 0.0312558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Edge_01.prefab
+  artifactKey: Guid(a7c1747e79f93804c975220727a0c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Edge_01.prefab using Guid(a7c1747e79f93804c975220727a0c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dddc72e50b3d5a1da81da6880093d032') in 0.0293177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Bridge_Middle_02.prefab
+  artifactKey: Guid(999dffbaa12cc3a4993543651d06b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Bridge_Middle_02.prefab using Guid(999dffbaa12cc3a4993543651d06b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b97021ba622e29ded05a6bd62337ea31') in 0.0305668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303196 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Middle_Destroyed_01.prefab
+  artifactKey: Guid(8d9a8cd1fe04ac24cad7874c1e4de99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Middle_Destroyed_01.prefab using Guid(8d9a8cd1fe04ac24cad7874c1e4de99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa052ddbde704a317ef3009802413d6') in 0.0306188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Edge_Destroyed_04.prefab
+  artifactKey: Guid(7f422617fd17c5e4f976c43511433695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Edge_Destroyed_04.prefab using Guid(7f422617fd17c5e4f976c43511433695) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1502280ec591b9909e95f6b33665b076') in 0.031731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Tunnel_Middle_01.prefab
+  artifactKey: Guid(5b0c0477fc1a4064da31fe4d20dea356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Tunnel_Middle_01.prefab using Guid(5b0c0477fc1a4064da31fe4d20dea356) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9d2e4eb994383a49332aed0bfebd79e') in 0.0290262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Corner_End_02.prefab
+  artifactKey: Guid(ff43c18d05d4bbb479d5fd98133801f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Corner_End_02.prefab using Guid(ff43c18d05d4bbb479d5fd98133801f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '244bdfc2e5c6387e296341b795b08e92') in 0.0311178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_04.prefab
+  artifactKey: Guid(cab42ffeac4dd5a4d87e025f3968f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_04.prefab using Guid(cab42ffeac4dd5a4d87e025f3968f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1d99061a2c7481c2c6f672efae82b9a') in 0.0317381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Support_01.prefab
+  artifactKey: Guid(9b88ecae3f5399e4c93936b04454cc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Support_01.prefab using Guid(9b88ecae3f5399e4c93936b04454cc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b33cbcf972256a42a71e1543c391fe87') in 0.0282126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_BridgeRamp_02.prefab
+  artifactKey: Guid(0d7fc5132821f4a4ab1f6cf904bf3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_BridgeRamp_02.prefab using Guid(0d7fc5132821f4a4ab1f6cf904bf3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6af77f895c1af8195d3ef3602db8119') in 0.0516911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Median_01.prefab
+  artifactKey: Guid(2e2a4c62257866240b54aefc07c1eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Median_01.prefab using Guid(2e2a4c62257866240b54aefc07c1eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e15dec0e4036f894171592a297eab8b') in 0.0310338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Lines_02.prefab
+  artifactKey: Guid(5d9369ba7ad6e2a4faffadcf2beebd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Lines_02.prefab using Guid(5d9369ba7ad6e2a4faffadcf2beebd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9364393d1fc8dfd37fc0b095320708fe') in 0.0274997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Middle_Destroyed_01.prefab
+  artifactKey: Guid(180d09973edf5c948871cd57e1571c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Middle_Destroyed_01.prefab using Guid(180d09973edf5c948871cd57e1571c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8facf4c05508dcc4f9981f505e6eb16d') in 0.0256589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Crossing_03.prefab
+  artifactKey: Guid(d11fc2eeecefbc94b86542f3e2d1168a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Crossing_03.prefab using Guid(d11fc2eeecefbc94b86542f3e2d1168a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62e659941fe546d2323b05745ac5e803') in 0.0292621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_03.prefab
+  artifactKey: Guid(a43d28467b99c5e4e853ab48fe94ab8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_03.prefab using Guid(a43d28467b99c5e4e853ab48fe94ab8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5403d2ae12a8f53f05224b9bc0f692a6') in 0.0277696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Tunnel_Destroyed_Left_01.prefab
+  artifactKey: Guid(96a3ee4c9ebc12a418534750507c1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Tunnel_Destroyed_Left_01.prefab using Guid(96a3ee4c9ebc12a418534750507c1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7e9aa5359bec2c5cc3f2733917b34c7') in 0.031336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_RoadPiece_Damaged_03.prefab
+  artifactKey: Guid(74143b07d7765b940bedeb084fcdbe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_RoadPiece_Damaged_03.prefab using Guid(74143b07d7765b940bedeb084fcdbe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9e7a23d85cb85e2fb1daac3b2d3773c') in 0.0302648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Middle_02.prefab
+  artifactKey: Guid(19444feb24765a5449c66ab28bc621e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Middle_02.prefab using Guid(19444feb24765a5449c66ab28bc621e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b81dc6e3885ba0511458c4b481760100') in 0.0291527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Tunnel_Edge_01.prefab
+  artifactKey: Guid(71cbb099c00fd8e48b470d80e75fef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Tunnel_Edge_01.prefab using Guid(71cbb099c00fd8e48b470d80e75fef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a31238cb32d06dba6d308f4d9a8588dc') in 0.0270024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_YellowLines_02.prefab
+  artifactKey: Guid(fdde635d4b659e44ba7c7c955983e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_YellowLines_02.prefab using Guid(fdde635d4b659e44ba7c7c955983e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd566bd4692a885c4d7e5ee2da1a700c') in 0.0258098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Lines_01.prefab
+  artifactKey: Guid(dd68348fd606eca4ca7e067676833cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Lines_01.prefab using Guid(dd68348fd606eca4ca7e067676833cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e370df9fd390338c82ecb8778cf5a86') in 0.0238191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_RoadPiece_Damaged_04.prefab
+  artifactKey: Guid(377a84f02f3005c4694edb8c33322bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_RoadPiece_Damaged_04.prefab using Guid(377a84f02f3005c4694edb8c33322bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ce8bcf9f4b978591fd4692eb217c2aa') in 0.0255761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Middle_Destroyed_02.prefab
+  artifactKey: Guid(88fecde5a7789ef4da8cca1f74626787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Middle_Destroyed_02.prefab using Guid(88fecde5a7789ef4da8cca1f74626787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31c41d66cb107d29adbb1d7c2d42d7f7') in 0.0329104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Arrow_01.prefab
+  artifactKey: Guid(4ddd90be11a7cfc48883cf91ce12f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Arrow_01.prefab using Guid(4ddd90be11a7cfc48883cf91ce12f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '747263bae8be78647fb64588a3d2cc33') in 0.0276674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Edge_01.prefab
+  artifactKey: Guid(b6fe58840b4f3e644a4b52e0a50fa37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Motorway_Ramp_Edge_01.prefab using Guid(b6fe58840b4f3e644a4b52e0a50fa37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03e9a6148453b90ac73ee81454dfaa9d') in 0.0283151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Parking_02.prefab
+  artifactKey: Guid(27a0d62e3275f1d4eaf139c5608a136b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Environment/SM_Env_Road_Parking_02.prefab using Guid(27a0d62e3275f1d4eaf139c5608a136b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f8a51f2b0ad5488a3f8ad977dab21d2') in 0.0275294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.743885 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Base_01_Convex 4.asset
+  artifactKey: Guid(a4ae61c3896836840aeefe033848b300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Base_01_Convex 4.asset using Guid(a4ae61c3896836840aeefe033848b300) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e3e9d8057e88c382b5fe6b18e73245d') in 0.0376381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Gaspump_Cover_01.prefab
+  artifactKey: Guid(18696e3fdd185b045aa09c72bc193776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Gaspump_Cover_01.prefab using Guid(18696e3fdd185b045aa09c72bc193776) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '119fa3c93d7eaf9ccaa28114547ae494') in 0.0369822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Cover_Burnt_01_Convex.asset
+  artifactKey: Guid(6465895737d52eb498d176ba2d22961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Cover_Burnt_01_Convex.asset using Guid(6465895737d52eb498d176ba2d22961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e07fcc895a6e2c493b1997a8fc0c310') in 0.0211285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Veh_Attach_Gas_01_Convex.asset
+  artifactKey: Guid(605488c23c7d5324fa46273fe9a71c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Veh_Attach_Gas_01_Convex.asset using Guid(605488c23c7d5324fa46273fe9a71c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd96ea67223a7a58481fc88290f709c91') in 0.0184387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_Gaspump_Cover_Burnt_01.fbx
+  artifactKey: Guid(5f870452b9c8bdd439dc9b6690f10e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_Gaspump_Cover_Burnt_01.fbx using Guid(5f870452b9c8bdd439dc9b6690f10e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ad4bc2cfd149736f5e6e2a5e8a27562') in 0.0259635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Wep_Bomb_GasCan_01.fbx
+  artifactKey: Guid(fef0eaa21a613924a803dfad7ce8cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Wep_Bomb_GasCan_01.fbx using Guid(fef0eaa21a613924a803dfad7ce8cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38b4e7695739340c1d5e546113e5286b') in 0.0196618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Veh_Attach_Gas_01.fbx
+  artifactKey: Guid(2aeb2c8740d3de843947bb152abd8395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Veh_Attach_Gas_01.fbx using Guid(2aeb2c8740d3de843947bb152abd8395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42b3a4900e0db0139ef210de4bc583c7') in 0.0170855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Collision/SM_Prop_Gaspump_Cover_Burnt_Rubble_01_Collision.fbx
+  artifactKey: Guid(59ee91dc78ba0a949b1aa763fe4339c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Collision/SM_Prop_Gaspump_Cover_Burnt_Rubble_01_Collision.fbx using Guid(59ee91dc78ba0a949b1aa763fe4339c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2971852453ad24a633505ba6361f4a09') in 0.0173484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Wep_Bomb_GasCan_01_Convex.asset
+  artifactKey: Guid(9b2986cf3e537d247b866fc8392739cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Wep_Bomb_GasCan_01_Convex.asset using Guid(9b2986cf3e537d247b866fc8392739cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c4cb7ccc10dfce9ffdcc35f9a9c7cd0') in 0.0204811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_Gaspump_Cover_01.fbx
+  artifactKey: Guid(7057dd5fa4e981e4ab000e57582ff15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_Gaspump_Cover_01.fbx using Guid(7057dd5fa4e981e4ab000e57582ff15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '547d7d7086042ccca55a97787e663492') in 0.0194322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Cover_Burnt_01_Convex 2.asset
+  artifactKey: Guid(683f1ab692283b2419fd6155533f4ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Cover_Burnt_01_Convex 2.asset using Guid(683f1ab692283b2419fd6155533f4ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7066016018eff4543614f9db4ebfc60') in 0.0172813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131761 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Base_01_Convex 3.asset
+  artifactKey: Guid(f7cda5efff9de5640a6aa69d74029781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Base_01_Convex 3.asset using Guid(f7cda5efff9de5640a6aa69d74029781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d42b279686ed05993efa5a37afb04fa') in 0.0323955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.312723 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Base_01_Convex 1.asset
+  artifactKey: Guid(6161014ed86a5c340b22dfdfec138b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Base_01_Convex 1.asset using Guid(6161014ed86a5c340b22dfdfec138b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63939dc51f618c372010ec2b9bfd4566') in 0.0311238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Base_01_Convex.asset
+  artifactKey: Guid(13ec35c3ab091974d82096d70a203c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_Base_01_Convex.asset using Guid(13ec35c3ab091974d82096d70a203c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0ade469022e34710eaa7facf81c30e4') in 0.0180017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_02_Convex.asset
+  artifactKey: Guid(aca7120a3db5b0f47b149b5655282bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_Gaspump_02_Convex.asset using Guid(aca7120a3db5b0f47b149b5655282bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f994d642c4c5246cf20c1368194b6c4') in 0.0188301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_GasMask_01.prefab
+  artifactKey: Guid(34eb936eadc4b1f478dcd77331fa2129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Characters/Attachments/SM_Chr_Attach_GasMask_01.prefab using Guid(34eb936eadc4b1f478dcd77331fa2129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c68a0ffdf01face649ca03c75354c80') in 0.0282668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Gaspump_02.prefab
+  artifactKey: Guid(80bb90f3ea3505c44aeadeee7008520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Gaspump_02.prefab using Guid(80bb90f3ea3505c44aeadeee7008520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f99862c240f879d3e5819e55824ee284') in 0.0402248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_Gaspump_Base_01.fbx
+  artifactKey: Guid(ad4e074ed1544c843b89677c6f48e589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_Gaspump_Base_01.fbx using Guid(ad4e074ed1544c843b89677c6f48e589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bda3f7e44dab69d7e8709420786f3869') in 0.0167627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Gaspump_Base_01.prefab
+  artifactKey: Guid(b5e8e442a54b596478f0553bf8d534ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Gaspump_Base_01.prefab using Guid(b5e8e442a54b596478f0553bf8d534ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d733597a4109c5c395e08a7c1f41582') in 0.0271146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_Gaspump_02.fbx
+  artifactKey: Guid(9e9204ff588f05f47ae82ecc9ce7e2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_Gaspump_02.fbx using Guid(9e9204ff588f05f47ae82ecc9ce7e2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54bb0366e27a27df61adab332ed989d4') in 0.0164168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.667146 seconds.
+  path: Assets/Synty/PolygonShops/Models/Characters.fbx
+  artifactKey: Guid(0be15d3e163aef642a9c70f34e53d7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Models/Characters.fbx using Guid(0be15d3e163aef642a9c70f34e53d7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd766c303b48a7aa9492ede72721cfcf') in 0.1401615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 162
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Base_Pillar_Metal_02.prefab
+  artifactKey: Guid(525b03b095b1a2a468c8cdf6fbbfd7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Buildings/SM_Bld_Base_Pillar_Metal_02.prefab using Guid(525b03b095b1a2a468c8cdf6fbbfd7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1c21772f991c6eff82808d3e0a1a786') in 0.0192326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/Base/SM_Bld_Base_Stairs_01.fbx
+  artifactKey: Guid(490403774c944474ea34a53ed99259e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/Base/SM_Bld_Base_Stairs_01.fbx using Guid(490403774c944474ea34a53ed99259e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ccbdb7865e74801e6a85563defffada') in 0.0177693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Synty/PolygonShops/Models/SM_Bld_Base_Stairs_01.fbx
+  artifactKey: Guid(90f02ea949276a148a0f96ef3289fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Models/SM_Bld_Base_Stairs_01.fbx using Guid(90f02ea949276a148a0f96ef3289fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17ab46523c275aa44c255454c4c8ab9d') in 0.015098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Synty/PolygonGeneric/Shaders/SubGraphs/ObjectYRotation.shadersubgraph
+  artifactKey: Guid(12e6dd34d7398d44a8bfb1e75bc2b4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Shaders/SubGraphs/ObjectYRotation.shadersubgraph using Guid(12e6dd34d7398d44a8bfb1e75bc2b4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152010b3b8bf070059b6abb8b6f6c257') in 0.0019008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonApocalypse/Materials/Misc/Road_Standard_01.mat
+  artifactKey: Guid(21c1e0845fe50de4bacf0970b304729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Materials/Misc/Road_Standard_01.mat using Guid(21c1e0845fe50de4bacf0970b304729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a05d7d9f11d296d67b69a73cb49e1960') in 0.0434887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102523 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_Decontamination_Shower_01.fbx
+  artifactKey: Guid(d1215962ffe4aa24a930d4e32c5fd63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_Decontamination_Shower_01.fbx using Guid(d1215962ffe4aa24a930d4e32c5fd63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16d16272a05321b57b29cb64dadfc45a') in 0.0160226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonShops/Models/Collision/Convex/SM_Prop_Gym_Fitness_Tampoline_01_Convex.asset
+  artifactKey: Guid(3b5cbb71e8a60de4c93b91ac246e005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Models/Collision/Convex/SM_Prop_Gym_Fitness_Tampoline_01_Convex.asset using Guid(3b5cbb71e8a60de4c93b91ac246e005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7b4d410018b5fc47db94ae14e62cb15') in 0.0120881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947453 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_WaterTank_01.prefab
+  artifactKey: Guid(46133089344458744b67372c6e18592d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_WaterTank_01.prefab using Guid(46133089344458744b67372c6e18592d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af16e962749cb2fdba80b7953eab713e') in 0.0279486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_TankTrap_01.prefab
+  artifactKey: Guid(36150bcba1ff98b46a211cc56721f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_TankTrap_01.prefab using Guid(36150bcba1ff98b46a211cc56721f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eadeff55ef6fd42b425e2ccb2d772681') in 0.030016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.554937 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Env_StormCanal_Pipe_01.fbx
+  artifactKey: Guid(df8534fd87a40834a9e81ff00b8dbfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Env_StormCanal_Pipe_01.fbx using Guid(df8534fd87a40834a9e81ff00b8dbfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f83f71401ba49661c0a2961880dd4475') in 0.0145495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Cap_02.fbx
+  artifactKey: Guid(37c277dc23fc3884ba9f2fb3a0de2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Cap_02.fbx using Guid(37c277dc23fc3884ba9f2fb3a0de2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aae660a1615c2fc19503733d67eb7e87') in 0.0146421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Cross_01.fbx
+  artifactKey: Guid(3c1188d8bc64a534d8ab9991c9c60398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Cross_01.fbx using Guid(3c1188d8bc64a534d8ab9991c9c60398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'debd6371c574e8dfcf0405e8755d864b') in 0.014969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_T_01.fbx
+  artifactKey: Guid(e0554dcc20087d04fb9a6015d0098c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_T_01.fbx using Guid(e0554dcc20087d04fb9a6015d0098c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd19d57dd866e1937f5a519f83abbad84') in 0.0170245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Env_StormCanal_Pipe_End_01.fbx
+  artifactKey: Guid(9296436d8409b40438e7fcb0715f53f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Env_StormCanal_Pipe_End_01.fbx using Guid(9296436d8409b40438e7fcb0715f53f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6455d9027e7ed353cc320f7263ea55d3') in 0.0147855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.797728 seconds.
+  path: Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Valve_01.fbx
+  artifactKey: Guid(96638db97d398ea4cba098cf0b9b6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Models/SM_Gen_Bld_Pipe_Valve_01.fbx using Guid(96638db97d398ea4cba098cf0b9b6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26c473843bfdf412605cd3ddbadc955d') in 0.0196992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.366883 seconds.
+  path: Assets/Synty/PolygonShops/Models/SM_Prop_Barber_Backwash_Chair_01.fbx
+  artifactKey: Guid(3c8d8cbef80f4f644abe911417eac533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Models/SM_Prop_Barber_Backwash_Chair_01.fbx using Guid(3c8d8cbef80f4f644abe911417eac533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08af4627cf5a6d5aa17b184add4d644c') in 0.0226519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008991 seconds.
+  path: Assets/Synty/PolygonShops/Models/SM_Prop_BigPipe_02.fbx
+  artifactKey: Guid(58f16a75f1504814f93c1e0bedfcaf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Models/SM_Prop_BigPipe_02.fbx using Guid(58f16a75f1504814f93c1e0bedfcaf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '586561f4a8aaa0d2ed429012f5f075da') in 0.0152541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_BigPipe_Connector_01.prefab
+  artifactKey: Guid(dcd221c4e8d343f4db585edef9de4dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_BigPipe_Connector_01.prefab using Guid(dcd221c4e8d343f4db585edef9de4dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '044ca0e7f8e87ce0b2c08e1c2910a42a') in 0.0150269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.275954 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_BigPipe_Corner_01.prefab
+  artifactKey: Guid(fb9f97d2884e6584b8d16a1c086a8e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_BigPipe_Corner_01.prefab using Guid(fb9f97d2884e6584b8d16a1c086a8e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0df73ce9a5add66b929a0479ed3bc182') in 0.0162729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033901 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Bunker_WallPipe_01.prefab
+  artifactKey: Guid(3e0deed33663c2c44aeac6740cd3caea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Bunker_WallPipe_01.prefab using Guid(3e0deed33663c2c44aeac6740cd3caea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '655145d6e3cf60393f7b0c64f088fc62') in 0.0294027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437248 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Pipe_Large_01.prefab
+  artifactKey: Guid(7ef0518b3086c3749b83424202f7075f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Pipe_Large_01.prefab using Guid(7ef0518b3086c3749b83424202f7075f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c96356f8f69b03feed1dac7379cce79') in 0.030045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Pipe_Large_01_Tarp.prefab
+  artifactKey: Guid(18fd60b92d324a546b333542f0271f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Pipe_Large_01_Tarp.prefab using Guid(18fd60b92d324a546b333542f0271f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc600e060d86b172c4e63ec8d9c9aab6') in 0.0301261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669145 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_Pipe_Valve_01.fbx
+  artifactKey: Guid(d544d3593123f0340a887e840b173ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_Pipe_Valve_01.fbx using Guid(d544d3593123f0340a887e840b173ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f5b4fd6422ba4b6e2f44688eb7e1829') in 0.015027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_Pipe_Valve_02.fbx
+  artifactKey: Guid(6f104d2c43fa2bf4fb406cf337953b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_Pipe_Valve_02.fbx using Guid(6f104d2c43fa2bf4fb406cf337953b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a55cec6a60ad5aab7d36378ca1c2f2c') in 0.0155027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013025 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Pipes_01.prefab
+  artifactKey: Guid(33c0c06bf5774ba4d8b693193812aa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Pipes_01.prefab using Guid(33c0c06bf5774ba4d8b693193812aa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8353c664f57ed6ba09cea25c4b87b5f') in 0.0322697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313344 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Pipes_Rusted_01.prefab
+  artifactKey: Guid(434b7c6af8087404fa3d8e56c90dbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_Pipes_Rusted_01.prefab using Guid(434b7c6af8087404fa3d8e56c90dbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43609a133c4ab5ec7cdea0c2ef1fa40a') in 0.0253325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.000847 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_Pipes_Rusted_02.fbx
+  artifactKey: Guid(0c5527dc92e531e42825d05594a7907d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_Pipes_Rusted_02.fbx using Guid(0c5527dc92e531e42825d05594a7907d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe6152ac64a61bbc11f18a79d9f3e26a') in 0.0132396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_Pipes_Valves_01.fbx
+  artifactKey: Guid(2f2df29f88e0190458ed950aef9cf683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_Pipes_Valves_01.fbx using Guid(2f2df29f88e0190458ed950aef9cf683) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8e35eeff787c281cde51c7c35e1cede') in 0.0160487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004182 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_SmallPipe_01.prefab
+  artifactKey: Guid(b6f2321a04379f346897fca70ba6ec8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_SmallPipe_01.prefab using Guid(b6f2321a04379f346897fca70ba6ec8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acc7a8d3e5449e8892218d94fb527219') in 0.0329932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_SmallPipe_Corner_01.prefab
+  artifactKey: Guid(44f101e4df12a33418ed1f713c919cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_SmallPipe_Corner_01.prefab using Guid(44f101e4df12a33418ed1f713c919cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cf89107a09ec87fa85d9574b82aec75') in 0.0176872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.348977 seconds.
+  path: Assets/Synty/PolygonShops/Models/SM_Prop_Wall_Pipe_01.fbx
+  artifactKey: Guid(b0e68a013dcb24841939ec2ee42c5d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Models/SM_Prop_Wall_Pipe_01.fbx using Guid(b0e68a013dcb24841939ec2ee42c5d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c172e0375c77f2c8ae336f65b86a08b0') in 0.0169042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_Wall_Pipe_02.prefab
+  artifactKey: Guid(2be54e210e00d19499709c0d6f271880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Props/SM_Prop_Wall_Pipe_02.prefab using Guid(2be54e210e00d19499709c0d6f271880) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4907748650be4be1a82dc4c967c41f87') in 0.0158712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.435157 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Veh_Attach_Pipe_01.fbx
+  artifactKey: Guid(2128bf18457027d4fa519f433f18e36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Veh_Attach_Pipe_01.fbx using Guid(2128bf18457027d4fa519f433f18e36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '883c5a5c6821fb569460699c9fa1fbc9') in 0.013296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001081 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Veh_Attach_Pipe_02.fbx
+  artifactKey: Guid(04cb5115c3420ca4ebad06bd74fb921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Veh_Attach_Pipe_02.fbx using Guid(04cb5115c3420ca4ebad06bd74fb921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ede9aac2fd8ca3949851ac39a3c775ef') in 0.0138414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Wep_Pipe_01_Convex.asset
+  artifactKey: Guid(741314bf8a436ad4cb9283c2d9a369c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Wep_Pipe_01_Convex.asset using Guid(741314bf8a436ad4cb9283c2d9a369c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1890b5fd43ef1ac3308bb2d10b861af2') in 0.0146021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Wep_PipeBomb_01.fbx
+  artifactKey: Guid(93e006619721cb24b9f34721b30c222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Wep_PipeBomb_01.fbx using Guid(93e006619721cb24b9f34721b30c222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1026aaa43573ae9d42d6942266eaa325') in 0.0154316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.324779 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Wep_PipeWrench_01_Convex.asset
+  artifactKey: Guid(049eadf4fa61cad4693fa001ef156b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Wep_PipeWrench_01_Convex.asset using Guid(049eadf4fa61cad4693fa001ef156b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c3240a6d8e8fc5cecec04dff416255e') in 0.0156117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.486371 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/FX/FX_Escalator_Down_01.prefab
+  artifactKey: Guid(9f59c1f881b70394f8ed52ac26d8b54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/FX/FX_Escalator_Down_01.prefab using Guid(9f59c1f881b70394f8ed52ac26d8b54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8fb0a1470e73ec3da1d33cfaeb3878b') in 0.0247813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Synty/PolygonGeneric/Materials/FX/Generic_Candle_Glow_01.mat
+  artifactKey: Guid(91297fe527b5cc64bae58b58c7d48945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Materials/FX/Generic_Candle_Glow_01.mat using Guid(91297fe527b5cc64bae58b58c7d48945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc695d1db9739186fe3316911ccd2812') in 0.0357295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Synty/PolygonShops/Textures/Polygon_Sign_Video.mp4
+  artifactKey: Guid(228208ca967f1ad43ba476b190c5da8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Textures/Polygon_Sign_Video.mp4 using Guid(228208ca967f1ad43ba476b190c5da8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3273319afdbb82d2bc226f6410dd56e9') in 0.0017521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Synty/PolygonGeneric/Materials/Generic_Cloud.mat
+  artifactKey: Guid(d5781eac488aef247903a1f97360b2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Materials/Generic_Cloud.mat using Guid(d5781eac488aef247903a1f97360b2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '663cd2046adcd22ee738e002b92f466d') in 0.0144071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonGeneric/Materials/Generic_Dirt.mat
+  artifactKey: Guid(a98a889207a454f48ab79b85673a9804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Materials/Generic_Dirt.mat using Guid(a98a889207a454f48ab79b85673a9804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eebc5a9091da745a88f3e130ff94552') in 0.0197702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.720504 seconds.
+  path: Assets/Synty/PolygonShops/Models/SM_Prop_Cafe_Sugar_Box_01.fbx
+  artifactKey: Guid(71d78f7c24fcb6b44aa5d6516079b915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Models/SM_Prop_Cafe_Sugar_Box_01.fbx using Guid(71d78f7c24fcb6b44aa5d6516079b915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efc9cf2fe380c7be586b67e930799468') in 0.0172604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonShops/Models/Collision/Convex/SM_Prop_Food_Sugar_01_Convex.asset
+  artifactKey: Guid(89940fc8d84bab941b782d1154cad61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Models/Collision/Convex/SM_Prop_Food_Sugar_01_Convex.asset using Guid(89940fc8d84bab941b782d1154cad61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c81c1e59009e2de1b3340d3a186ac66f') in 0.0113411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sugar_02.prefab
+  artifactKey: Guid(395beaa7a9dc88341a510012190619c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonShops/Prefabs/Food/SM_Prop_Food_Sugar_02.prefab using Guid(395beaa7a9dc88341a510012190619c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1684068c602c8ad9b2af4f6c801f6de') in 0.0185079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.877306 seconds.
+  path: Assets/Synty/PolygonGeneric/Shaders/PolygonShaderTransparent.shadergraph
+  artifactKey: Guid(fdea4239d29733541b44cd6960afefcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Shaders/PolygonShaderTransparent.shadergraph using Guid(fdea4239d29733541b44cd6960afefcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7806a1ff097308ab40b791804cebed6d') in 2.2619783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.069137 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashBag_08_Convex.asset
+  artifactKey: Guid(b31165d6b343f0f45ac023ed7a7d6804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashBag_08_Convex.asset using Guid(b31165d6b343f0f45ac023ed7a7d6804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '610b0f9c2ab45f02da0f2baf6554af7c') in 0.016723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_TrashCan_01.fbx
+  artifactKey: Guid(4d06223852c659e4992666cb6ae96f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_TrashCan_01.fbx using Guid(4d06223852c659e4992666cb6ae96f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66cafc2f4d74b1681558100fd6719274') in 0.0172304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.250388 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_01_Convex.asset
+  artifactKey: Guid(0c7ea7bf25a543340ba3e958aba4e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_01_Convex.asset using Guid(0c7ea7bf25a543340ba3e958aba4e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d3243a42c7c31a60b670fb5e4637f53') in 0.0159383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_02_Convex.asset
+  artifactKey: Guid(17e0dbcf65d712a489a14c9718508266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_02_Convex.asset using Guid(17e0dbcf65d712a489a14c9718508266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd958c14cfefc4771c9f9689b619e624') in 0.0177172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.284679 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_04_Convex.asset
+  artifactKey: Guid(07b5d3495adfeec44a6fca434e84f723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_04_Convex.asset using Guid(07b5d3495adfeec44a6fca434e84f723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a40282ea74d4c4f7c3c1ea8476c02f4d') in 0.015854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_05_Convex.asset
+  artifactKey: Guid(f6bcfc7ceb36c8a4da36ef199f2d1fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_05_Convex.asset using Guid(f6bcfc7ceb36c8a4da36ef199f2d1fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a00154f058ed7b9034c2547ebf03135b') in 0.0177855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.633809 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_07_Convex.asset
+  artifactKey: Guid(1e18065ccb5d43c4aabe336ed9f359f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_07_Convex.asset using Guid(1e18065ccb5d43c4aabe336ed9f359f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21bc697348169455e667dcd4f35c5b22') in 0.0174312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_08_Convex.asset
+  artifactKey: Guid(962e6fbc2471a2b4099f96993c285023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_08_Convex.asset using Guid(962e6fbc2471a2b4099f96993c285023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0e92e49d8c6d5094de8f72875ebffd5') in 0.0153053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570719 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_10_Convex.asset
+  artifactKey: Guid(c5781eff90c069240b90c67045f0dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_10_Convex.asset using Guid(c5781eff90c069240b90c67045f0dfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '249a9bdfadc0fd5701176e8a66c6c8c8') in 0.0164383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_TrashPile_11.prefab
+  artifactKey: Guid(f6daa718420f0b347b2e67fb79c52831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_TrashPile_11.prefab using Guid(f6daa718420f0b347b2e67fb79c52831) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '641f06c080f2d65fb3fc711bec373a93') in 0.0123606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_12_Convex.asset
+  artifactKey: Guid(c21b5ef3e23ca25458d640df9ea04348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Prop_TrashPile_12_Convex.asset using Guid(c21b5ef3e23ca25458d640df9ea04348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ee25a0bcd676f8f32b4e8cc334fcf00') in 0.0163745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Synty/PolygonApocalypse/Models/SM_Prop_TrashPile_Wall_02.fbx
+  artifactKey: Guid(ae895004cefe06846bbd52723e50237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Models/SM_Prop_TrashPile_Wall_02.fbx using Guid(ae895004cefe06846bbd52723e50237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71172d30e470dc1608f5145051940a5b') in 0.015604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.250928 seconds.
+  path: Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_TrashPile_Wall_02.prefab
+  artifactKey: Guid(268f2aa800864da46a930ed19979cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonApocalypse/Prefabs/Props/SM_Prop_TrashPile_Wall_02.prefab using Guid(268f2aa800864da46a930ed19979cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dac5b57b64d12d6771296b59a1658a5e') in 0.024936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.13f1 (8c4f11e4fb20) revision 9195281'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli" at "2026-04-20T22:04:28.3383904Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32347 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli" at "2026-04-21T21:50:36.2378422Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-20T22:04:28Z
+Date: 2026-04-21T21:50:36Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.13f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Game Development/DisasterDiner
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-59898
+60058
 -licensingIpc
 LicenseClient-zieli
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Game Development/DisasterDiner
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [24144]  Target information:
+Player connection [31372]  Target information:
 
-Player connection [24144]  * "[IP] 192.168.86.22 [Port] 0 [Flags] 2 [Guid] 3793291955 [EditorId] 3793291955 [Version] 1048832 [Id] WindowsEditor(7,Johns_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31372]  * "[IP] 192.168.86.22 [Port] 0 [Flags] 2 [Guid] 1433925736 [EditorId] 1433925736 [Version] 1048832 [Id] WindowsEditor(7,Johns_PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24144] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24144] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31372] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31372] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.13f1 (8c4f11e4fb20)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -100,54 +100,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001868 seconds.
-- Loaded All Assemblies, in  0.432 seconds
+Registered in 0.001255 seconds.
+- Loaded All Assemblies, in  0.323 seconds
+Native extension for WindowsStandalone target not found
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-zieli"
 [Licensing::IpcConnector] LicenseClient-zieli channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13" at "2026-04-20T22:04:29.4272834Z"
-Native extension for WindowsStandalone target not found
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13" at "2026-04-21T21:50:37.1303758Z"
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.385 seconds
-Domain Reload Profiling: 814ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.328 seconds
+Domain Reload Profiling: 649ms
+	BeginReloadAssembly (105ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (227ms)
-		LoadAssemblies (106ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (209ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (120ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (385ms)
+	FinalizeReload (328ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (333ms)
+		SetupLoadedEditorAssemblies (300ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
+			InitializePlatformSupportModulesInManaged (40ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (139ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -159,160 +159,112 @@ Begin MonoManager ReloadAssembly
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              339dfe79e0124137bda749e6519a8547
-  Correlation Id:          9661812b27bda653d1f0b85d45a86b8e
-  External correlation Id: 5294468142622403661
+  Session Id:              9036c9c057e541d7a5f4882b4e77dd44
+  Correlation Id:          2b999b7551c4f1abd27547e4a7907d59
+  External correlation Id: 2814942835668409279
   Machine Id:              a0OP954qVZmt5azPS5PrvPW5hTY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-zieli-6000.3.13" (connect: 0.00s, validation: 0.00s, handshake: 0.99s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13-notifications" at "2026-04-20T22:04:30.4236012Z"
-[Licensing::Module] Licensing Background thread has ended after 2.09s
-[Licensing::Module] Licensing is initialized (took 0.32s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-zieli-6000.3.13" (connect: 0.00s, validation: 0.00s, handshake: 0.85s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-zieli-6000.3.13-notifications" at "2026-04-21T21:50:37.9841536Z"
+[Licensing::Module] Licensing Background thread has ended after 1.75s
+[Licensing::Module] Licensing is initialized (took 0.35s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 2475483376267-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.025 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.920 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.870 seconds
-Domain Reload Profiling: 1891ms
-	BeginReloadAssembly (471ms)
+- Finished resetting the current domain, in  0.690 seconds
+Domain Reload Profiling: 1606ms
+	BeginReloadAssembly (483ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (470ms)
-		LoadAssemblies (318ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (255ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (160ms)
-				TypeCache.ScanAssembly (148ms)
-			BuildScriptInfoCaches (57ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (870ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (121ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (690ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (638ms)
+		SetupLoadedEditorAssemblies (505ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (155ms)
-			ProcessInitializeOnLoadAttributes (403ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6447 unused Assets / (5.0 MB). Loaded Objects now: 7244.
-Memory consumption went from 156.7 MB to 151.7 MB.
-Total: 8.874500 ms (FindLiveObjects: 0.876000 ms CreateObjectMapping: 0.775200 ms MarkObjects: 4.913600 ms  DeleteObjects: 2.308200 ms)
+Memory consumption went from 158.6 MB to 153.5 MB.
+Total: 8.370800 ms (FindLiveObjects: 0.602400 ms CreateObjectMapping: 0.393900 ms MarkObjects: 5.227400 ms  DeleteObjects: 2.145600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1539.476730 seconds.
-  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Bld_Diner_Booth_Seat_01_Convex.asset
-  artifactKey: Guid(c59d610a6d5ca9647bb0a681dec774be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Bld_Diner_Booth_Seat_01_Convex.asset using Guid(c59d610a6d5ca9647bb0a681dec774be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8874f9a7fbe74d222e09f404d5e9add7') in 0.2153841 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 1231.811561 seconds.
+  path: Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_Wall_Window_Half_02.prefab
+  artifactKey: Guid(97b5bff341f70544190d9c89f2d8f8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Prefabs/Base/SM_Bld_Base_Wall_Window_Half_02.prefab using Guid(97b5bff341f70544190d9c89f2d8f8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4815b815ba26ffb30f817acca3a004ba') in 0.4458862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Door_02.prefab
-  artifactKey: Guid(458aaade6852aab48a4d246ac3c29d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Door_02.prefab using Guid(458aaade6852aab48a4d246ac3c29d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ad3e7c0c9644777164d9c0678feaeb6') in 3.2053033 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+  Time since last request: 50.424976 seconds.
+  path: Assets/Synty/PolygonGeneric/Prefabs/Environment/SM_Gen_Env_Log_02.prefab
+  artifactKey: Guid(7f44ecdd42b82f645895aa5063db454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Prefabs/Environment/SM_Gen_Env_Log_02.prefab using Guid(7f44ecdd42b82f645895aa5063db454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86f704a724f795816e10a6702622c89a') in 0.0758956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Synty/PolygonApocalypse/Models/SM_Bld_Diner_Sign.fbx
-  artifactKey: Guid(d3b9d3a971ac53d479588250e07f4475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Models/SM_Bld_Diner_Sign.fbx using Guid(d3b9d3a971ac53d479588250e07f4475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b29876430857330d9e39874cb191046') in 0.0224632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+  Time since last request: 0.000021 seconds.
+  path: Assets/Synty/PolygonGeneric/Prefabs/Environment/SM_Gen_Env_Mushroom_01.prefab
+  artifactKey: Guid(443b419ea1ffdb042be6ed8eac6f153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Prefabs/Environment/SM_Gen_Env_Mushroom_01.prefab using Guid(443b419ea1ffdb042be6ed8eac6f153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4335076f9008488c92e56b6e50779f29') in 0.0788838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Sign.prefab
-  artifactKey: Guid(047c1b3886838ba4ba0f317e5d68e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Sign.prefab using Guid(047c1b3886838ba4ba0f317e5d68e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10d627f87fc811d335b54e4dcebf8173') in 0.0300415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+  Time since last request: 0.000045 seconds.
+  path: Assets/Synty/PolygonGeneric/Prefabs/Environment/SM_Gen_Env_Road_Gravel_Corner_Small_01.prefab
+  artifactKey: Guid(b62636393df18ec4c9bac73c22b9b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Prefabs/Environment/SM_Gen_Env_Road_Gravel_Corner_Small_01.prefab using Guid(b62636393df18ec4c9bac73c22b9b658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1739b43563b06cf4ce7e605416e8a276') in 0.0417754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Stool_01.prefab
-  artifactKey: Guid(e74d279c451a71745a0222de9fbc054e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Stool_01.prefab using Guid(e74d279c451a71745a0222de9fbc054e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41109e5cc2a497b6ed92f3152cb63278') in 0.0459038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.680422 seconds.
-  path: Assets/Synty/PolygonApocalypse/Models/SM_Bld_Diner_Stool_02.fbx
-  artifactKey: Guid(5097401282d353a4ba101bc77c17f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Models/SM_Bld_Diner_Stool_02.fbx using Guid(5097401282d353a4ba101bc77c17f249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f57ab40f2e3bc437462856011c741fab') in 0.0179786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Stool_03.prefab
-  artifactKey: Guid(05c3caac42590ac45b52f27eb8d20ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Stool_03.prefab using Guid(05c3caac42590ac45b52f27eb8d20ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dc9a3664b7852f540c994ce809b2ef0') in 0.0324409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.219766 seconds.
-  path: Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Table_01.prefab
-  artifactKey: Guid(a806337f5bf82e047a4cb4b78e1728f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Prefabs/Buildings/SM_Bld_Diner_Table_01.prefab using Guid(a806337f5bf82e047a4cb4b78e1728f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09a289db96b4f540eaefd3ee56a69b85') in 0.0269732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Bld_Diner_Table_02_Convex.asset
-  artifactKey: Guid(5c4f3b3ca8f7dfe4bb22e3aed12df4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Bld_Diner_Table_02_Convex.asset using Guid(5c4f3b3ca8f7dfe4bb22e3aed12df4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cd101775c629dba23206a34e0fada03') in 0.012328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Synty/PolygonApocalypse/Models/SM_Bld_Diner_Text_02.fbx
-  artifactKey: Guid(ff2f930c98ca1484aba6b226d1a17622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Models/SM_Bld_Diner_Text_02.fbx using Guid(ff2f930c98ca1484aba6b226d1a17622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '963552433a504578bf6957f03218a4e3') in 0.0180008 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Synty/PolygonApocalypse/Models/Convex/SM_Bld_Diner_Text_01_Convex.asset
-  artifactKey: Guid(b130a2855d94ee64cb11a53afdd636fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Synty/PolygonApocalypse/Models/Convex/SM_Bld_Diner_Text_01_Convex.asset using Guid(b130a2855d94ee64cb11a53afdd636fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99b42c7829e0178393cea84ab18f38ec') in 0.0226757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000029 seconds.
+  path: Assets/Synty/PolygonGeneric/Prefabs/Environment/SM_Gen_Env_Mushroom_02.prefab
+  artifactKey: Guid(1bb7c04abb892e54e86a1e9b09a244a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Synty/PolygonGeneric/Prefabs/Environment/SM_Gen_Env_Mushroom_02.prefab using Guid(1bb7c04abb892e54e86a1e9b09a244a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f1755444e15125128b26e912726e012') in 0.0429663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
